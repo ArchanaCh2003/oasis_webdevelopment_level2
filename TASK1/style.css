@@ -1,0 +1,52 @@
+body{
+
+    background-color:rgb(179, 244, 179);
+    padding-top: 50px;
+
+}
+.keys{
+    background-color:rgb(132, 245, 132);
+    color:rgb(5, 134, 5);
+    height:65px;
+    width:65px;
+    border-radius: 10px;
+    border:0px;    
+    font-weight: bold;
+}
+.nums{
+    background-color:rgb(179, 244, 179);
+    color:rgb(7, 97, 7);
+    height:65px;
+    width:65px;
+    border-radius: 10px;
+    border:0px;
+    font-weight: bolder;
+}
+
+/*
+input{
+height:65px;
+width:65px;
+border-radius: 10px;
+}
+*/
+
+#calc{  
+background-color:rgb(153, 245, 153);
+color:rgb(8, 45, 8);
+width: 270px;  
+border: 0px rgb(141, 138, 138);  
+border-radius: 3px;  
+padding: 20px;  
+margin: auto;  
+}
+
+table{
+    background-color: aliceblue;
+    border-radius: 10px;
+    border:0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    
+}
