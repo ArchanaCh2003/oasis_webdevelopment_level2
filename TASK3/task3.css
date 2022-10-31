@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+*::selection{
+    background-color: rgb(73, 146, 241);
+}
+
+h1{
+    color:rgb(17, 107, 107);
+    font-weight: bolder;
+
+}
+
+body{
+
+    background-image: url("todo_bg1.jpg");
+    backface-visibility: visible;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; 
+
+}
+
+.tdl{
+    margin-top: 30px;
+    width:450px;
+    padding:20px;
+    box-shadow: 0 10px 40px #0000007d;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.tdl-head{
+    display:grid;
+    grid-template-columns: 4fr 1fr;
+    gap:20px;
+}
+
+.enter-items{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.add-items{
+    background-color: #7df183;
+    color: antiquewhite;
+    border-radius: 20px;
+    border-color: white;
+    border-bottom: white;
+    border-right: white;
+    font-size: 20px;
+    opacity: .5;
+    
+}
+
+input{
+    border-color: #b2bdb3;
+}
+
+.add-items.active{
+    opacity:1;
+    pointer-events: all;
+}
+
+.task-list{
+    width:100%;
+    margin: 20px 0;
+}
+
+.task-items{
+    margin-top:7px;
+    padding: 10px;
+    border-radius:5px;
+    box-shadow: 2px 3px 4px 0 rgba(0, 0, 0, 0.495);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-items .p{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.task-items.completed p{
+   
+    text-decoration: line-through;
+}
+
+.item-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#w2,#w3{
+    color:#576182;
+    font-size: 18px;
+}
+
+
+#w2:hover{
+    color:rgb(78, 193, 78);
+}
+#w3:hover{
+    color: rgb(164, 18, 18);
+}
+
+#w2.completed{
+    color:rgb(48, 129, 48);
+}
+
