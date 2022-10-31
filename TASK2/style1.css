@@ -1,0 +1,22 @@
+
+
+body{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: bisque;
+    backdrop-filter:0;
+}
+
+p{
+    font-family:cursive;
+    color: bisque;
+
+    
+}
